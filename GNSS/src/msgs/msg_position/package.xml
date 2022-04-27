@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>msg_position</name>
+  <version>0.0.0</version>
+  <description>The msg_position package</description>
+
+
+  <maintainer email="qxh880507@163.com">qxh</maintainer>
+
+
+  <license>BSD</license>
+
+  <!-- Basic depends -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <depend>roscpp</depend>
+  <depend>std_msgs</depend>
+
+
+  <!-- Depends on msg. -->
+  <build_depend>message_generation</build_depend>
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>message_generation</exec_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>

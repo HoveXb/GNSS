@@ -1,0 +1,14 @@
+
+[COM] # Field name.
+
+kComPort:    0
+kParity:     0       # 0, none. 1, odd. 2, even.
+kBaudRate:   115200  # 9600, 115200, 230400.
+kStopBitLen: 1       # 1, 2.
+
+[GNSS_TYPE]
+kGnssDataType: GPCHC # GPCHC, NOVATEL.
+
+
+
+
